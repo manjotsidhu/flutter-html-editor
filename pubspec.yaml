@@ -9,10 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  webview_flutter: ^1.0.7
-  image_picker: ^0.6.4
-  path: ^1.6.4
-  mime: ^0.9.6+3
+  webview_flutter: ^2.0.2
+  image_picker: ^0.7.2+1
+  path: ^1.8.0
+  mime: ^1.0.0
 
 dev_dependencies:
   flutter_test:

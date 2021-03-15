@@ -35,7 +35,7 @@ class LocalServer {
 
         server.listen((HttpRequest httpRequest) async {
           request(httpRequest);
-          var body = List<int>();
+          var body = [];
           var path = httpRequest.requestedUri.path;
           path = (path.startsWith('/')) ? path.substring(1) : path;
           path += (path.endsWith('/')) ? 'index.html' : '';
